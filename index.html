@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vitor Silva">
+    <meta name="description" content="Portfólio do desenvolvedor front-end Vitor Silva">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Vitor Silva</title>
+    <link rel="icon" href="images/raioo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+    <nav data-menu="suave">
+       <p><a href="#home">‹VS/›</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Home</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+        <li>Experiência</li>
+      </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      
+      <section class="principal" id="home">
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+          <span class="principal__sentence">     Vitor Silva</span>
+          <h1>Desenvolvedor Front-End</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/vitor-silva-32990532/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="images/linkedin.png" alt>
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/kanongemini" target="_blank">
+              <div class="principal__botao-github">
+                <img src="images/github.png" alt>
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <img src="fonts/cod.svg" alt="Ilustração." data-tilt>
+        </div>
+        
+        <div class="scroll" data-menu="suave"><a href="#sobre"> <p> scroll down </p> <img src="images/scroll.png" alt="Setinha"></a></div>
+      </section>
+      <section class="sobre-mim animation" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="./images/eu.png" alt="Uma selfie da Gabriela Souza">
+        </div>
+        <div class="sobre-mim__descricao">
+          <h1>Sobre mim</h1>
+          <h2>Rio de Janeiro</h2>
+          <p>
+            Olá! Em 2011 Cursei Análise e Desenvolvimento de Sistema na FATERJ,
+            eu não terminei.Esse ano de 2023 voltei a cursar na faculdade UNISUAM e fazendo cursos de Python na Udemy e Programação WEB na IFRS(HTML, CSS, Lógica da Programação, JavaScript, Banco de Dados, Projetos de Sistemas Web com carga horária de 200h).
+          </p>      
+            </section>
+          <section class="experiencia animation" id="experiencia" data-anime="js-scroll">
+            <h1>Experiência</h1>
+            <ul data-tab="menu">
+                  <li>Técnico Eletrônica</li>
+                  <li>Cursando Pós Graduação em Desenvolvimento de Software</li>
+                  <li>Licenciatura em Matemática</li>
+                </ul>
+              </section>
+              <div class="experiencia__descricao" data-tab="content">
+                <section data-anime="show-right">
+                </section>
+                <section data-anime="show-right" class="active">
+                <h2>Desenvolvedor Front-End</h2>
+
+                <p class="experiencia__descricao-local"> Estou a proucura de uma oportunidade na área de programação</p>
+                <p>
+                 Minhas experiencias são com cursos HTML, JavaScript,CSS, C e Python. 
+                </p>
+              
+        </div></section>
+        
+      
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+            <img src="images/R.png" alt class="projeto-img">
+          
+          </section>
+
+
+      <footer>
+        <p>Desenvolvido <img src="images/raioo.png" alt="Image" height="40" width="60"> por</p><a href="https://www.linkedin.com/in/vitor-silva-32990532/" target="_blank"><span>Vitor Silva</span></a>
+      </footer>
+    </main>
+
+<script src="js/script.js" type="module"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+  </body></html>
